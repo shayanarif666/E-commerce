@@ -105,6 +105,10 @@
     justify-content: end;
 }
 
+.pagination .css-nhb8h9 {
+    flex-wrap: nowrap !important;
+}
+
 .pagination .css-15xwqz1 {
     margin: 0 .3rem;
     border-color: #999;
