@@ -99,3 +99,32 @@
         width: 100% !important;
     }
 }
+
+/* Pagination For Deployment */
+.pagination {
+    justify-content: end;
+}
+
+.pagination .css-15xwqz1 {
+    margin: 0 .3rem;
+    border-color: #999;
+    border-radius: 0%;
+}
+
+.pagination .css-15xwqz1:hover {
+    border-color: orangered;
+    color: orangered !important;
+    background: none !important;
+}
+
+.pagination .css-15xwqz1.Mui-selected {
+    background-color: orangered;
+    color: #fff;
+    border-color: orangered;
+}
+
+.pagination .css-15xwqz1.Mui-selected:hover {
+    background-color: rgb(237, 63, 0) !important;
+    color: #fff !important;
+    border-color: orangered !important;
+}
