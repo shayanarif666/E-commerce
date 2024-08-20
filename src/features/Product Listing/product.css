@@ -1,6 +1,9 @@
 .card-box .css-1qw96cp {
     padding: 0px !important;
     width: 100% !important;
+    margin-top: .5rem !important;
+    font-size: .9rem !important;
+    color: #333 !important;
 }
 .card-box .card-img {
     position: relative;
