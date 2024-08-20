@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.dashboard-content {
+    position: relative;
+}
+
+/* ####################### Header ########################## */
+.css-1erjrsn-MuiPaper-root-MuiAppBar-root {
+    box-shadow: none !important;
+    border-bottom: 1px solid #ddd;
+}
+
+.css-1d6w9lk-MuiButtonBase-root-MuiIconButton-root {
+    background-color: #f5f5f9 !important;
+    border-radius: 50%;
+    font-size: 1.3rem !important;
+    padding: .25rem;
+    margin-left: 0rem !important;
+    margin-right: .3rem;
+}
+
+.css-1d6w9lk-MuiButtonBase-root-MuiIconButton-root:hover {
+    background-color: #f2f2f2 !important;
+}
+
+.search-bar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.search-bar-container .search-box {
+    border: none !important;
+    font-size: .8rem !important;
+    color: #999 !important;
+    padding-left: 1.3rem;
+}
+
+.search-bar-container .search-box::placeholder {
+    font-size: .8rem !important;
+    color: #7081b9 !important;
+}
+
+.search-bar-container .search-box:focus {
+    box-shadow: none !important;
+}
+
+.search-bar-container .search-icon {
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    color: #7081b9 !important;
+    transform: translateY(-50%);
+    font-size: .8rem;
+}
+
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root {
+    font-size: 1.2rem !important;
+    background-color: #f5f5f9 !important;
+    padding: .4rem;
+    border-radius: 50% !important;
+    color: #666 !important;
+    margin: 0 .4rem !important;
+}
+
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root .setting-icon {
+    animation: circular 2s infinite;
+}
+
+@keyframes circular {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root:hover {
+    background-color: #f2f2f2 !important;
+}
+
+.css-17o22dy-MuiAvatar-root {
+    background-color: #7081b9 !important;
+    height: 35px !important;
+    width: 35px !important;
+    font-size: 1.3rem !important;
+}
+
+.text {
+    margin-left: .7rem;
+    margin-top: .7rem !important;
+}
+
+.text small {
+    font-size: .7rem;
+}
+
+.text p {
+    font-size: .8rem;
+    color: #333;
+}
+
+/* ####################### Aside Bar ####################### */
+.aside {
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    width: 250px !important;
+    height: 100vh !important;
+    background-color: #fff !important;
+    z-index: 999;
+    padding: 2rem 0;
+}
+
+.css-cveggr-MuiListItemIcon-root svg {
+    color: #999 !important;
+    font-size: .8rem !important;
+}
+
+.css-16f5hjv-MuiButtonBase-root-MuiListItemButton-root svg {
+    color: #999 !important;
+    font-size: .8rem !important;
+}
+
+.css-13eg511-MuiButtonBase-root-MuiListItemButton-root svg {
+    color: #999 !important;
+    font-size: .7rem !important;
+}
+
+/* ####################### Main Dashboard ########################## */
+.dashboard-heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #303e67 !important;
+}
+
+.dashboard-breadcrumb {
+    margin-top: -1.5rem !important;
+}
+
+.dashboard-breadcrumb .breadcrumb-item {
+    font-size: .8rem;
+}
+
+.dashboard-breadcrumb .breadcrumb-item-active {
+    font-size: .8rem;
+    color: #7081b9;
+}
+
+.revenue-sales canvas {
+    height: 400px !important;
+}
+
+.revenue-count-container svg {
+    font-size: 2.5rem;
+    color: #999;
+    margin-right: 1rem;
+}
+
+.revenue-count-container .revenue-count h4 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.revenue-count-container .revenue-count span {
+    color: #7081b9;
+    font-size: .8rem;
+    margin-top: -.3rem;
+    text-transform: uppercase;
+    display: block;
+}
+
+.today-revenue-container h4,
+.order-count-container h4 {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.today-revenue-container span,
+.order-count-container span {
+    color: #7081b9;
+    font-size: .7rem;
+    text-transform: uppercase;
+    display: block;
+}
+
+.product-data-table img {
+    width: 45px;
+    height: 45px;
+}
+
+.product-data-table .product-title {
+    color: #333;
+    font-size: .85rem;
+}
+
+.product-data-table .product-id {
+    color: #7081b9;
+    font-size: .85rem;
+}
+
+.product-data-table .product-discount {
+    color: #333;
+}
+
+.product-data-table .product-price {
+    font-size: .7rem;
+    margin-left: .3rem;
+    color: #7081b9;
+}
+
+.product-data-table .product-category {
+    color: #333;
+    font-weight: 500;
+    font-size: .8rem;
+    text-transform: capitalize;
+}
+
+.product-data-table .product-stock-status {
+    display: inline-block;
+    padding: .2rem .5rem;
+    font-size: .75rem;
+}
+
+.product-stock-status.product-in-Stock {
+    background-color: #fff1e3;
+    color: #ffa04d;
+}
+
+.product-stock-status.product-low-stock {
+    background-color: #dbe5f4;
+    color: #4d51bd;
+}
+
+.product-action svg {
+    color: #7081b9;
+    cursor: pointer;
+}
+
+.product-action svg:hover {
+    color: #4d51bd;
+}
+
+.order-data-table .payment-status {
+    display: inline-block;
+    padding: .4rem .8rem;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.order-data-table .payment-status.payment-pending {
+    background-color: #ffd5d5;
+    color: #e54242;
+    border-radius: 25px;
+}
+
+.order-data-table .payment-status.payment-recieved {
+    background-color: #def4ed;
+    color: #4cb883;
+    border-radius: 25px;
+}
+
+/* ############## Footer ############### */
+.admin-footer {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+.footer-container p {
+    font-size: .9rem;
+}
+
+.footer-container p svg {
+    color: #7081b9;
+}
+
+.footer-container p span {
+    color: #4d51bd;
+}
+
+.footer-container .copyright-status {
+    font-size: .9rem;
+    color: #7081b9;
+    display: flex;
+    align-items: center;
+    margin-bottom: -.3rem !important;
+}
+
+.copy-symbol {
+    font-size: 1rem;
+    margin-top: .15rem;
+}
+
+/* ############## Input Fields ( Utilities ) ############### */
+.css-q8hpuo-MuiFormControl-root,
+.css-wb57ya-MuiFormControl-root-MuiTextField-root {
+    min-width: 200px !important;
+}
+
+.css-1041uxd-MuiGrid-root {
+    margin: 80px !important;
+}
+
+/* #################### Responsive Design ################## */
+
+@media (max-width: 600px) {
+
+    /* ###### Header ####### */
+    .search-bar-container {
+        display: none !important;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* ###### Header ####### */
+    .search-bar-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* ###### Aside Bar ####### */
+    .aside {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 300px;
+        height: 100vh !important;
+        background-color: #fff !important;
+        z-index: 999;
+        padding: 0rem !important;
+    }
+
+    /* ###### Input Fields ####### */
+    .css-1041uxd-MuiGrid-root {
+        margin: 30px 15px !important;
+    }
+
+    .css-q8hpuo-MuiFormControl-root,
+    .css-wb57ya-MuiFormControl-root-MuiTextField-root {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1365px) {
+    .box {
+        min-width: 50% !important;
+    }
+}

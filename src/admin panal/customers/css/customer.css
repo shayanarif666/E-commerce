@@ -1,0 +1,31 @@
+/*
+###########################
+View Customer
+###########################
+*/
+.user-role {
+    padding: .3rem .1rem;
+    font-size: .9rem;
+}
+.admin {
+    background-color: #ffd5d5;
+    color: #e54242;
+}
+.moderator {
+    background-color: #d3f4ff;
+    color: #1bcbf7;
+}
+.user {
+    background-color: #ddffd5;
+    color: #49ab14;
+}
+
+/*
+###########################
+Edit Customer
+###########################
+*/
+.text-field {
+    height: 50px;
+    border: 1px solid #ccc;
+}

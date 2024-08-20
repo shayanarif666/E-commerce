@@ -1,0 +1,14 @@
+.cart-item .css-0 {
+    margin: 0 !important;
+}
+@media (max-width: 420px) {
+    .cart-item .css-1equabv-MuiGrid-root {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        margin: 0 0 1rem !important;
+    }
+    .cart-item .css-vok43g-MuiGrid-root {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+}

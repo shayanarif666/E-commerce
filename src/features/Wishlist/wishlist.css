@@ -1,0 +1,21 @@
+.wishlist-container .btn-main {
+    padding: .2rem 1.2rem;
+    font-size: .8rem;
+    border-radius: 15px;
+}
+.wishlist-container .delete-button {
+    font-size: 1rem;
+    color: red;
+    cursor: pointer;
+}
+.wishlist-container .delete-button:hover {
+    color: rgb(208, 3, 3);
+}
+
+@media (max-width: 965px) {
+    .wishlist-container .btn-main {
+        padding: .2rem .7rem;
+        font-size: .75rem;
+        border-radius: 15px;
+    }
+}

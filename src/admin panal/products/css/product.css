@@ -1,0 +1,50 @@
+/* ######################### 
+Add Products 
+######################### */
+.fixed-width-column {
+    width: 33%;
+}
+.category-column-container {
+    margin-top: -1rem;
+}
+.category-column {
+    height: 56px;
+}
+.category-column:focus {
+    box-shadow: none !important;
+    border-color: orangered;
+}
+
+/* ######################### 
+Edit Products 
+######################### */
+.edit-form-data .text-field {
+    border-radius: 5px;
+    height: 55px;
+}
+.edit-form-data .text-field:focus {
+    box-shadow: none !important;
+    border-color: orangered;
+}
+
+/* ######################### 
+Responsive View Products 
+######################### */
+@media (max-width: 400px) {
+    .pagination .css-1itoclz-MuiButtonBase-root-MuiPaginationItem-root {
+        height: 20px !important;
+        min-width: 20px !important;
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 765px) {
+    .category-column-container {
+        margin-top: 0%;
+        margin-bottom: 1rem;
+    }
+    .fixed-width-column {
+        width: 100% !important;
+    }
+}
+

@@ -1,0 +1,17 @@
+/* Changing Stepper Color */
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+    color: orangered !important;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+    color: orangered !important;
+}
+.css-19pbk9p-MuiContainer-root {
+    padding: 80px 10px !important;
+}
+.order-card img {
+    width: 80px !important;
+    height: 80px !important;
+}
+.css-1hv8oq8-MuiStepLabel-label.Mui-active {
+    color: orangered !important;
+}

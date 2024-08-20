@@ -1,0 +1,217 @@
+.product-detail-container .product-title h4 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.product-detail-container .product-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-detail-container .product-rating .css-15befwp-MuiRating-root {
+    font-size: .9rem;
+    margin-right: .4rem;
+}
+
+.product-detail-container .product-rating small {
+    color: #6cbbd6;
+    font-size: .8rem !important;
+}
+
+.product-detail-container .product-rating .product-store svg {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #999;
+}
+
+.product-detail-container .product-brand .brand-name {
+    color: #999;
+    font-size: .8rem;
+    margin-right: .4rem;
+}
+
+.product-detail-container .product-brand .brand-value {
+    color: #6cbbd6;
+    font-size: .8rem !important;
+}
+
+.product-detail-container .product-price .total-price {
+    color: orangered;
+    font-size: 2rem;
+}
+
+.product-detail-container .actual-price {
+    color: #999;
+    font-size: .8rem;
+    margin-right: .4rem;
+}
+
+.product-detail-container .actual-discount {
+    color: #333;
+    font-size: .8rem;
+}
+
+.product-detail-container .product-description p {
+    color: #666;
+    font-size: .9rem;
+}
+
+.delivery-occurances {
+    background-color: #eff0f5;
+    padding: 1rem;
+}
+
+.delivery-occurances h6 {
+    font-size: .75rem;
+    color: #999;
+}
+
+.delivery-occurances .delivery-time {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.delivery-occurances .delivery-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #666;
+}
+
+.delivery-occurances .delivery-details {
+    flex: 1;
+}
+
+.delivery-occurances .delivery-type {
+    font-size: 14px;
+    color: #000;
+}
+
+.delivery-occurances .delivery-aspected-time {
+    margin-top: -.2rem;
+    font-size: 12px;
+    color: #555;
+}
+
+.delivery-occurances .delivery-price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+.delivery-occurances .online-delivery {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.delivery-occurances .online-delivery p {
+    color: #666;
+    font-size: .8rem;
+    margin-bottom: -.1rem;
+}
+
+.delivery-occurances .delivery-warrenty {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.delivery-occurances .delivery-warrenty .warrenty-details .warrenty-time {
+    color: #333;
+    font-size: .9rem;
+}
+
+.delivery-occurances .delivery-warrenty .warrenty-details .warrenty-type {
+    margin-top: -1rem;
+    font-size: .75rem;
+    color: #999;
+}
+
+.delivery-occurances .delivery-availability {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.delivery-occurances .delivery-availibility-status p {
+    margin-bottom: -.3rem;
+    color: #666;
+    font-size: .8rem;
+}
+
+.stats-occurances {
+    background-color: #eff0f5;
+    padding: 10px;
+}
+.stats-occurances h6 {
+    font-size: .75rem;
+    color: #999;
+}
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+}
+
+.stats-box {
+    padding: 10px;
+    border: 1px solid #dedede;
+}
+
+.stats-label {
+    font-size: 12px;
+    color: #555;
+}
+
+.stats-value {
+    font-size: 22px;
+    color: #111;
+}
+
+/* Responsive Design */
+.css-480o17-MuiGrid-root {
+    margin-left: 0px !important; /* For Product Detail */
+    width: 100% !important;
+}
+.css-14wxvqe-MuiGrid-root {
+    margin-left: 0px !important; /* For Review Detail */
+    width: 100% !important;
+}
+
+@media (max-width: 1200px) {
+    .delivery-occurances,
+    .stats-occurances {
+        width: 50% !important;
+    }   
+    .stats-container {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .delivery-occurances,
+    .stats-occurances {
+        width: 100% !important;
+    }   
+    .stats-container {
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    .delivery-occurances,
+    .stats-occurances {
+        width: 100% !important;
+    }   
+    .stats-container {
+        display: block;
+    }
+    .css-1nrlq1o-MuiFormControl-root {
+        width: 100% !important;
+    }
+}

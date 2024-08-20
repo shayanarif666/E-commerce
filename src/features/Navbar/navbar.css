@@ -1,0 +1,209 @@
+/* 
+################################## 
+Desktop Navigation Bar
+##################################
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 999;
+}
+
+.custom-container {
+    max-width: 1400px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 1rem;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo img {
+    width: 220px;
+    height: 75px;
+} 
+
+.navbar .buttons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #222;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem .8rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #eee;
+    color: #333;
+    border-radius: 10px;
+}
+
+/* Badge */
+.css-1abqjyq-MuiBadge-badge {
+    height: 15px !important;
+    min-width: 15px !important; 
+    padding: 0px !important;
+    font-size: .7rem !important;
+    background-color: #f95c0e !important;
+}
+
+/* 
+################################## 
+Tablet Navigation Bar
+##################################
+*/
+.tablet-navbar  {
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: -5rem !important;
+}
+.tablet-navbar .logo img {
+    width: 200px;
+    height: 55px;
+}
+.tablet-navbar .menu-icons svg {
+    border-radius: 50%;
+    font-size: 1.4rem !important;
+    color: #222 !important;
+}
+.tablet-navbar .menu-icons .user-icon {
+    font-size: 1.8rem !important;
+    background-color: #f0f5ff;
+    padding: .4rem;
+}
+/* 
+################################## 
+Mobile Navigation Bar
+##################################
+*/
+.mobile-navbar {
+    background-color: #fff !important;
+}
+.mobile-navbar .bottom-navbar {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 999;
+}
+.mobile-navbar .search-mobile-container input {
+    background-color: #fff !important;
+    border-radius: 20px !important;
+    border: 1px solid orangered !important;
+    padding: .6rem 1rem;
+    width: 100%;
+    font-size: .9rem;
+}
+.mobile-navbar .search-mobile-container input:focus {
+    box-shadow: none !important;
+}
+.bottom-navbar .css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected {
+    color: orangered !important;
+}
+/*
+########################
+Utilities
+########################
+*/
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    margin: 0 10px;
+    background-color: #f0f5ff;
+    border-radius: 20px;
+    border: none !important;
+    position: relative;
+}
+
+/* Border class */
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.search-container input:focus {
+    box-shadow: none !important;
+    background-color: #f0f5ff;
+}
+
+.search-container button {
+    position: absolute;
+    padding: 7px 20px;
+    border: none;
+    background: none !important;
+    color: #222 !important;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    top: 50%;
+    right: 1%;
+    transform: translate(0%, -50%);
+}
+.search-container input:focus button {
+    color: #222 !important;
+    background-color: red !important;
+}
+
+/* Border class */
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* Search Results */
+.search-container .search-results {
+    position: absolute;
+    top: 115%;
+    left: 2%;
+    width: 100%;
+    z-index: 999;
+}
+.search-container .search-results ul {
+    width: 97% !important;
+}
+.search-container .search-results ul li div span {
+    font-size: .8rem;
+}
+.search-container .search-results ul li:hover {
+    color: black;
+    background-color: #eee;
+    cursor: pointer;
+}
+
