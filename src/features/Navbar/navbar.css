@@ -63,15 +63,6 @@ body {
     border-radius: 10px;
 }
 
-/* Badge */
-.css-1abqjyq-MuiBadge-badge {
-    height: 15px !important;
-    min-width: 15px !important; 
-    padding: 0px !important;
-    font-size: .7rem !important;
-    background-color: #f95c0e !important;
-}
-
 /* 
 ################################## 
 Tablet Navigation Bar
@@ -207,3 +198,22 @@ Utilities
     cursor: pointer;
 }
 
+
+/* Badge */
+.css-1abqjyq-MuiBadge-badge {
+    height: 15px !important;
+    min-width: 15px !important; 
+    padding: 0px !important;
+    font-size: .7rem !important;
+    background-color: #f95c0e !important;
+}
+
+
+/* Badge For Deployment */
+.navbar-nav .css-comym9 {
+    height: 15px !important;
+    min-width: 15px !important; 
+    padding: 0px !important;
+    font-size: .7rem !important;
+    background-color: #f95c0e !important;
+}
