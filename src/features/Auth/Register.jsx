@@ -3,7 +3,7 @@ import "./css/auth.css";
 import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from "react-hook-form";
 import loginImage from "../../../public/assets/images/register.svg"
-import { BeatLoader } from 'react-spinners';
+import { ClipLoader } from 'react-spinners';
 
 function Register() {
 
@@ -67,7 +67,7 @@ function Register() {
                 <input type='name' name='name' {...register("lastName", { required: true })} className='form-control' placeholder='Enter Last Name' />
               </div>
               <div className="username">
-                <label htmlFor="">User Name</label>
+                <label htmlFor="">Username</label>
                 <input type='name' name='name' {...register("username", { required: true })} className='form-control' placeholder='Enter User Name' />
               </div>
               <div className="email">
@@ -80,7 +80,7 @@ function Register() {
               </div>
               <button className={`login-button ${loading ? "active-spinner" : "login-button-hover"}`} disabled={loading ? true : false}>
                 {
-                  loading ? <BeatLoader size={10} color='#ccc' /> : "Register"
+                  loading ? <ClipLoader size={22} color='#ccc' /> : "Register"
                 }
               </button>
 

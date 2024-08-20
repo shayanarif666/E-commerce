@@ -10,7 +10,7 @@ function OrderHistoryPage() {
     return (
         <>
             <section style={{ backgroundColor: "#eff0f5" }}>
-                <Layout className="page-padding">
+                <Layout className="order-history-page-padding">
                     {
                         orders ?
                             <OrderHistory />

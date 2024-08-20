@@ -13,8 +13,7 @@ function ProfileSideBar({ user, tabIndex, handleTabChange }) {
         <>
             <Box className="bg-white d-sm-block d-flex align-items-center justify-content-around me-lg-3">
                 <Box display="flex" flexDirection="column" alignItems="center" padding="20px">
-                    <img src={user?.picture} alt="" style={{ borderRadius: "50%" }} />
-                    <Typography variant="h6" sx={{ fontSize: ".9rem" }} className='mt-2 text-center'>Muhammad Shayan</Typography>
+                    <h4 style={{fontFamily: "Arial, Helvetica, sans-serif"}} className='mt-2 text-center'>Muhammad Shayan</h4>
                 </Box>
 
                 <Divider className='d-sm-block d-none' sx={{ bgcolor: "#999" }}></Divider>
