@@ -174,13 +174,15 @@
 }
 
 /* Responsive Design */
-.css-480o17-MuiGrid-root {
+.css-480o17-MuiGrid-root,
+.css-14wxvqe-MuiGrid-root {
     margin-left: 0px !important; /* For Product Detail */
     width: 100% !important;
 }
-.css-14wxvqe-MuiGrid-root {
-    margin-left: 0px !important; /* For Review Detail */
+.css-gwaxrg,
+.css-1tz8m30 {
     width: 100% !important;
+    margin-left: 0% !important; /* After Deployment */
 }
 
 @media (max-width: 1200px) {
